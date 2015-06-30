@@ -1,0 +1,429 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	position: relative;
+}
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	position: relative;
+	height: 100%;
+}
+hr {
+	margin: 0;
+}
+p {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+	margin: 0 0 50px 0;
+	font-size: 28px;
+}
+
+/*************
+Header
+*************/
+
+header {
+	background: #4caf50;
+	width: 100%;
+	height: 70px;
+	color: #fff;
+}
+#logo {
+	width: 50px;
+	height: 50px;
+	background-color: #4caf50;
+	display: inline-block;
+	float: left;
+	margin: 10px 30px 10px 70px;
+}
+#logo svg path {
+	fill: white;
+}
+#dropmenu {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 32px;
+	height: 32px;
+	background: url(../img/menu.png) center center no-repeat;
+	cursor: pointer;
+}
+#menuwrapper {
+	width: 150px;
+	height: 150px;
+	background: #4caf50;
+	position: relative;
+	top: 30px;
+	text-align: center;
+	z-index: 100;
+}
+#menuwrapper a {
+	display: block;
+	width: 100%;
+	padding: 10px;
+}
+#menuwrapper a:hover {
+	background: #fff;
+	color: #4caf50;
+}
+#staticmenu {
+	display: none;
+}
+header .buttons {
+	float: right;
+	position: absolute;
+	top: 30px;
+	right: 10px;
+}
+.buttons {
+	width: 150px;
+}
+.buttons a {
+	display: inline-block;
+	height: 30px;
+	width: 70px;
+	background: #fff;
+	color: #4caf50;
+	opacity: 0.7;
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 5px;
+	border-radius: 5px;
+}
+.buttons a:hover {
+	opacity: 1;
+}
+
+/**********
+Sections
+**********/
+section {
+	padding: 50px 0;
+	clear: both;
+}
+
+/**********
+Intro section
+**********/
+
+#intro {
+	background: url(../img/intro-bg.jpg) center center;
+	background-size: cover;
+	color: #fff;
+	height: 600px;
+}
+h1 {
+	margin: 0;
+	padding-top: 150px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 36px;
+	letter-spacing: 3px;
+}
+#intro p {
+	margin-bottom: 40px;
+}
+#intro .buttons {
+	margin: 0 auto;
+}
+#intro .buttons a {
+	background: #666;
+	color: #fff;
+}
+
+/***********
+Section1
+***********/
+
+#section1 {
+	color: #666;
+	height: 500px;
+}
+
+.infobox h3 {
+	text-align: center;
+}
+.infobox img {
+	width: 128px;
+	display: block;
+	margin: 20px auto;
+}
+
+#section1 .infobox {
+	width: 100%;
+	float: left;
+	height: 360px;
+	padding: 10px 30px;
+}
+
+/***********
+Section2
+***********/
+
+#section2 {
+	
+	background: #fff;
+	color: #666;
+}
+#section2 .infobox {
+	width: 100%;
+	padding: 10px;
+	float: left;
+	height: 300px;
+	background: #4caf50;
+	border: 1px #fff solid;
+}
+h4 {
+	text-align: center;
+}
+#section2 li {
+	margin-left: 50px;
+}
+#section2 li:first-of-type {
+	margin-top: 50px;
+}
+
+/***********
+Section3
+***********/
+#section3 {
+	color: #666;
+}
+
+#section3 .infobox {
+	width: 50%;
+	padding: 10px;
+	height: 280px;
+	float: left;
+	background: #fff;
+}
+
+#section3 .infobox .image {
+	margin: 10px auto;
+	width: 128px;
+	height: 128px;
+	border-radius: 50%;
+}
+#section3 .infobox .image:hover {
+	opacity: 0.7;
+}
+#section3 .infobox:first-of-type .image {
+	background: #4caf50 url(../img/water.png) center center no-repeat;
+}
+#section3 .infobox:nth-of-type(2) .image {
+	background: #4caf50 url(../img/light.png) center center no-repeat;
+}
+#section3 .infobox:nth-of-type(3) .image {
+	background: #4caf50 url(../img/recycle.png) center center no-repeat;
+}
+#section3 .infobox:nth-of-type(4) .image {
+	background: #4caf50 url(../img/bike.png) center center no-repeat;
+}
+#section3 .infobox:nth-of-type(5) .image {
+	background: #4caf50 url(../img/leaf.png) center center no-repeat;
+}
+
+/***********
+Footer
+***********/
+footer {
+	background: #4caf50;
+	width: 100%;
+	height: 200px;
+	color: #fff;
+	clear: both;
+}
+.icons {
+	width: 300px;
+	height: 60px;
+	margin: auto;
+}
+.icons a {
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	margin: 10px;
+	background: #666 center center no-repeat;
+}
+.icons a:hover {
+	opacity: 0.5;
+}
+.icons a:first-child {
+	background-image: url(../img/fb.png);
+}
+.icons a:nth-child(2) {
+	background-image: url(../img/twitter.png);
+}
+.icons a:nth-child(3) {
+	background-image: url(../img/gplus.png);
+}
+.icons a:nth-child(4) {
+	background-image: url(../img/youtube.png);
+}
+.terms {
+	padding-top: 20px;
+	width: 400px;
+	margin: 20px auto;
+}
+.terms li {
+	list-style: none;
+	display: inline-block;
+	font-weight: 400;
+	margin: 5px;
+}
+
+.copyright {
+	width: 100%;
+	font-size: 12px;
+	clear: both;
+	text-align: left;
+	padding-top: 10px;
+	margin: auto;
+	text-align: center;
+	position: absolute;
+	bottom: 10px;
+}
+
+/*********
+Pop ups
+*********/
+
+.popupbg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #666;
+	opacity: 0.9;
+}
+.popupbox {
+	position: relative;
+	width: 320px;
+	margin: 150px auto;
+	background: #fff;
+	color: #666;
+	padding-top: 10px;
+}
+.popupbox a {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 10px;
+	right: 10px;
+	background: url(../img/close.png) center center no-repeat;
+}
+
+.popupbox form {
+	width: 300px;
+	margin: 0 auto;
+}
+.popupbox form input {
+	width: 100%;
+	height: 40px;
+	margin: 5px 0;
+	text-align: center;
+}
+#lsubmit, #ssubmit {
+	background: #666;
+	border: none;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 40px;
+	border-radius: 5px;
+}
+#lsubmit:hover {
+	background: #444;
+	cursor: pointer;
+}
+#ssubmit:hover {
+	background: #444;
+	cursor: pointer;
+}
+
+/**************
+Media queries
+**************/
+@media (min-width: 400px){
+	.terms li {
+		margin: 10px;
+	}
+	.terms li:first-child {
+		margin-left: 20px;
+	}
+}
+
+@media (min-width: 450px){
+	h1 {
+		font-size: 56px;
+	}
+	.buttons {
+		width: 205px;
+	}
+	.buttons a {
+		width: 100px;
+	}
+}
+@media (min-width: 550px){
+	h2 {
+		font-size: 48px;
+	}
+	#section1 .infobox {
+		width: 33.333%;
+		padding: 10px;
+		margin-bottom: 80px;
+	}
+	#section2 .infobox {
+		width: 50%;
+	}
+}
+
+@media (min-width: 650px) {
+	#section3 .infobox {
+		width: 33.333%;
+	}
+}
+
+@media (min-width: 800px){
+	#staticmenu {
+		float: left;
+		margin-top: 15px;
+		display: block;
+	}
+	#staticmenu a {
+		display: inline-block;
+		margin: 15px;
+		text-transform: uppercase;
+		font-weight: 400;
+	}
+	#staticmenu a:hover {
+		font-weight: 700;
+	}
+	#dropmenu {
+		display: none;
+	}
+	#logo {
+		margin: 10px 30px 10px 10px;
+	}
+	#section3 .infobox {
+		width: 20%;
+	}
+}
